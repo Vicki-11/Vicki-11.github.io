@@ -70,25 +70,11 @@ footer {
     margin: 20px 0;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+a {
+    color: #00d8ff; /* Turkusowy kolor linków */
+    text-decoration: none;
 }
 
-form label {
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
-    margin: 5px 0;
-    padding: 10px;
-    width: 300px;
-    max-width: 100%;
-    border: none;
-    border-radius: 5px;
-}
-
-input, textarea {
-    color: #0d1b3d; /* Ciemnoniebieski tekst */
+a:hover {
+    text-decoration: underline;
 }
